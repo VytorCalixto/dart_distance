@@ -59,14 +59,14 @@ class Distance {
     int feet = 0,
     int inches = 0,
   }) : _distance = (kilometers * micrometersInKilometer +
-      meters * micrometersInMeter +
-      centimeters * micrometersInCentimeter +
-      millimeters * micrometersInMillimeter +
-      micrometers +
-      miles * micrometersInMile +
-      yards * micrometersInYard +
-      feet * micrometersInFoot +
-      inches * micrometersInInch);
+            meters * micrometersInMeter +
+            centimeters * micrometersInCentimeter +
+            millimeters * micrometersInMillimeter +
+            micrometers +
+            miles * micrometersInMile +
+            yards * micrometersInYard +
+            feet * micrometersInFoot +
+            inches * micrometersInInch);
 
   // Fast path internal direct constructor to avoids the optional arguments and
   // [_distance] recomputation.

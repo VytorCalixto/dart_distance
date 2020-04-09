@@ -1,6 +1,6 @@
 name: distance
-description: A simple distance library similar to Dart's duration
-version: 0.1.0
+description: A simple distance library similar to Dart's duration. Use this to represent distances in an agnostic way.
+version: 0.1.1
 homepage: https://github.com/VytorCalixto/dart_distance
 
 environment:
